@@ -1,0 +1,386 @@
+.navbar {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden;
+    background-color: #505050;
+    margin-bottom: 1rem; 
+    padding: 12x 14px; 
+    position: relative;
+    z-index: 1050;
+    overflow: visible;
+}
+
+.navbar a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #000000;
+    color: #ddd;
+}
+
+.main-content {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #f0f0f0;
+    padding: 0;
+}
+
+
+.login-form {
+    border: 1px solid #ccc;
+    padding: 40px; 
+    background: #fff;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+    width: 100%;
+    max-width: 500px; 
+    box-sizing: border-box;
+    font-size: 18px; 
+}
+
+.login-form input,
+.login-form button {
+    width: calc(100% - 2 * 20px); 
+    padding: 10px;
+    margin-bottom: 10px; 
+    box-sizing: border-box; 
+}
+
+.login-form button {
+    border: 1px solid transparent; 
+    background-color: #505050;
+    color: white;
+}
+
+.login-form button:hover {
+    background-color: #000000;
+}
+
+.login-form a {
+    display: block;
+    text-align: center;
+    margin-top: 20px; 
+    color: #00458f;
+    font-size: 16px; 
+    text-decoration: none;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}
+h1 {
+    flex: 2; 
+    text-align: center;
+    margin: 0; 
+}
+
+h2{
+    text-align: center;
+}
+
+
+.ticket-container {
+    padding: 20px; 
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%; 
+    max-width: 1200px; 
+    min-width: 850px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    box-sizing: border-box; 
+}
+.ticket-container h2{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ticket-container2 {
+    width: 100%;
+    max-width: 850px; 
+    margin: auto; 
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+    background-color: #fff; 
+}
+
+.form-group, .ticket-container2 > div { 
+    margin-bottom: 20px; 
+}
+
+.category-label, .ticket-container2 label { 
+    display: block; 
+    margin-bottom: 5px; 
+}
+
+input[type="text"], 
+input[type="date"], 
+input[type="file"], 
+textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+}
+
+input[type="submit"] {
+    background-color: #00458f; 
+    color: white; 
+    padding: 10px 15px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+
+.form-group {
+    margin-bottom: 1rem; 
+}
+
+.form-group label,
+.form-group select,
+.form-group textarea,
+.form-group input[type="submit"] {
+    display: block; 
+    width: 100%; 
+    margin-bottom: 0.5rem;
+}
+
+.form-group select,
+.form-group input[type="submit"] {
+    padding: 0.5rem; 
+}
+
+.form-group textarea {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+}
+
+.form-group input[type="submit"] {
+    padding: 0.5rem 1rem; 
+    cursor: pointer; 
+    background-color: #505050;
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #000000; 
+}
+
+.tickets-table {
+    width: 100%;
+}
+
+.tickets-table th, .tickets-table td {
+    border: 1px solid #ddd; 
+    padding: 8px; 
+    text-align: left;
+}
+
+.tickets-table th {
+    background-color: #f4f4f4; 
+}
+
+.login-form, .ticket-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+}
+
+.category-label {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    background-color: #505050;
+}
+
+#date-time, #weather {
+    flex: 1; 
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #fff; 
+}
+
+.profile-container {
+    width: 90%;
+    max-width: 600px;
+    margin: 2rem auto; 
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: .5rem;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button {
+    background-color: #00458f;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block; 
+    width: 100%; 
+}
+
+.button:hover {
+    background-color: #003366;
+}
+
+footer {
+    margin-top: auto; 
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center; 
+    gap: 30px; 
+    margin: 15px 0; 
+}
+
+.image-link {
+    display: block;
+    text-align: center; 
+    margin: 0 15px; 
+}
+
+.image {
+    width: 280px; 
+    height: 280px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+    transition: transform 0.3s ease; 
+}
+
+.image:hover {
+    transform: scale(1.05); 
+}
+
+.ticket-in-process {
+    background-color: #a0d0ff; 
+}
+
+.ticket-closed {
+    background-color: #9effb4; 
+    color: #000000;
+}
+
+.ticket-open {
+    background-color: #ffffff; 
+    color: #212529;
+}
+
+.responses-container {
+    margin-top: 20px;
+}
+
+.response {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(161, 161, 161); 
+}
+
+.admin-response {
+    border-left: 5px solid #007bff; 
+}
+
+.user-response {
+    border-left: 5px solid #ff0000; 
+}
+
+
+#messageBox {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(0, 197, 43);
+    border: 1px solid #000;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: none;
+    z-index: 1000;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
